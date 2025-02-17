@@ -37,9 +37,7 @@ if (resutl2) {
 
 // 4
 
-// 4
-
-let text4 = Number(prompt("Заповніть поле числом"))
+const text4 = Number(prompt("Заповніть поле числом"))
 let result3;
 
 if (10 < text4 < 20) {
@@ -48,5 +46,17 @@ if (10 < text4 < 20) {
     result3 = "Число не входить в діапазон від 10 до 20";
 }
 console.log(result3);
+
+5
+ 
+const name1 = prompt("Введіть ім'я")
+const email1 = prompt("Введіть email")
+const password1 = prompt("Введіть пароль")
+
+if(name1.length > 3 && email1.includes("@") &&  email1.includes(".") && password1.length > 6) {
+     console.log("Перекидуємо на іншу сторінку");
+} else {
+    console.log("Помилка!");
+}
 
 
