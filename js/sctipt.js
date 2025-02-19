@@ -28,7 +28,7 @@ console.log(result1);
 // 3
 
 const text3 = prompt("Введіть текст");
-const resutl2 = (text3.includes("JavaScript"));
+const resutl2 = text3.includes("JavaScript");
 if (resutl2) {
     console.log("Текст містить слово JavaScript");
 } else {
