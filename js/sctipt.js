@@ -40,7 +40,7 @@ if (resutl2) {
 const text4 = Number(prompt("Заповніть поле числом"))
 let result3;
 
-if (10 < text4 < 20) {
+if (text4 > 10 && text4 < 20) {
     result3 = "Число входить в діапазон від 10 до 20";
 } else {
     result3 = "Число не входить в діапазон від 10 до 20";
